@@ -140,12 +140,7 @@ const projects = [
     category: "ArgentBank",
     title: "p10",
     desc: "Dixième projet : Créer l'application web complète et responsive avec React, phase 1 qui concerne l'authentification des utilisateurs avec React, Redux et l'intégration des API back-end existantes, suivie de la phase 2 sur les transactions à spécifier via Swagger. Pour se connecter, mettre l'identifiant et mot de passe suivant : tony@stark.com /  password123",
-    stack: [
-      { name: "React" },
-      { name: "Sass" },
-      { name: "JavaScript" },
-      { name: "Redux" },
-    ],
+    stack: [{ name: "React" }, { name: "Sass" }, { name: "Redux" }],
     image: "/assets/work/p10.png",
     live: "https://argentbank-five.vercel.app/",
     github: "https://github.com/Daiba-yume/Project_13_AB",
@@ -155,13 +150,7 @@ const projects = [
     category: "SportSee",
     title: "p11",
     desc: "Onzième projet : Créer la nouvelle page profil utilisateur avec React. Cette page suivra les sessions d'activité et les calories brûlées. Le projet inclut des graphiques (Recharts). Le Live project utilise les données mockées, mais si vous souhaitez voir les données API vous pouvez télécharger le repo.",
-    stack: [
-      { name: "React" },
-      { name: "Sass" },
-      { name: "JavaScript" },
-      { name: "Recharts" },
-      { name: "Axios" },
-    ],
+    stack: [{ name: "React" }, { name: "Recharts" }, { name: "Axios" }],
     image: "/assets/work/p11.png",
     live: "https://sportsee-nine.vercel.app/",
     github: "https://github.com/Daiba-yume/Project_12_SS",
@@ -295,16 +284,18 @@ const Work = () => {
               {projects.map((project, index) => {
                 return (
                   <SwiperSlide key={index} className="w-full">
-                    <div className="h-[460px]  relative group flex justify-center items-center bg-pink-50/20 rounded-md overflow-hidden">
+                    <div className="h-[340px]  relative group flex justify-center items-center bg-pink-50/20 rounded-md overflow-hidden">
                       {/* overlay */}
                       <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
                       {/* image */}
                       <div className="relative w-full  h-full">
                         <Image
                           src={project.image}
-                          layout="fill"
-                          objectFit="cover"
-                          objectPosition="top"
+                          fill
+                          style={{
+                            objectFit: "cover",
+                            objectPosition: "top",
+                          }}
                           alt={project.num}
                         />
                       </div>
@@ -314,7 +305,7 @@ const Work = () => {
               })}
               {/* slider buttons */}
               <WorkSliderBtns
-                containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
+                containerStyles="flex gap-2 absolute right-0 bottom-[40%] xl:bottom-[25%]  z-20 w-full justify-between xl:w-max xl:justify-none"
                 btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all rounded-md"
               />
             </Swiper>
