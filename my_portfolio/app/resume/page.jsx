@@ -92,38 +92,47 @@ const Skills = {
     {
       icon: <FaHtml5 />,
       name: "html 5",
+      color: "#e34c26",
     },
     {
       icon: <FaCss3 />,
       name: "css 3",
+      color: "#264de4",
     },
     {
       icon: <FaJs />,
       name: "javaScript",
+      color: "#f0db4f",
     },
     {
       icon: <FaReact />,
       name: "react.js",
+      color: "#61dafb",
     },
     {
       icon: <FaSass />,
       name: "sass",
+      color: "#cd6799",
     },
     {
       icon: <FaVuejs />,
       name: "vue.js",
+      color: "#42b883",
     },
     {
       icon: <FaGitAlt />,
       name: "git",
+      color: "#f1502f",
     },
     {
       icon: <FaGithub />,
       name: "github",
+      color: "#fff",
     },
     {
       icon: <FaFigma />,
       name: "figma",
+      color: "#a259ff",
     },
   ],
 };
@@ -239,8 +248,11 @@ const Resume = () => {
                       <li key={index}>
                         <TooltipProvider delayDuration={100}>
                           <Tooltip>
-                            <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                              <div className="text-6xl group-hover:text-accent transition-all duration-300">
+                            <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group hover:bg-[#2f2f36]">
+                              <div
+                                className="text-6xl transition-all duration-300  group-hover:scale-125"
+                                style={{ color: skill.color }}
+                              >
                                 {skill.icon}
                               </div>
                             </TooltipTrigger>

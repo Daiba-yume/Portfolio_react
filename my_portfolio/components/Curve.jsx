@@ -23,7 +23,9 @@ const Curve = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
-    setLabel(pathname.split("/").pop());
+    // si url "/"" affiche "home"
+    const path = pathname === "/" ? "home" : pathname.split("/").pop();
+    setLabel(path);
     setIsVisible(true);
     const timer = setTimeout(() => setIsVisible(false), 800);
 
@@ -39,9 +41,9 @@ const Curve = () => {
           initial="initial"
           animate="animate"
           exit="exit"
-          className="fixed top-0 left-0 w-screen h-screen bg-curve z-50 flex items-center justify-center"
+          className="fixed top-0 left-0 w-screen h-screen bg-accent z-50 flex items-center justify-center"
         >
-          <span className="text-lavender text-3xl font-medium capitalize">
+          <span className="text-curve text-3xl font-medium capitalize">
             {label}
           </span>
         </motion.div>

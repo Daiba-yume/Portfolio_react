@@ -21,14 +21,16 @@ const Photo = () => {
           }}
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute rounded-full overflow-hidden"
         >
-          <Image
-            src="/assets/imageProfile/profile.png"
-            priority
-            quality={100}
-            layout="fill"
-            alt=""
-            className="object-cover transform scale-110"
-          />
+          <div className="relative w-full h-full">
+            <Image
+              src="/assets/imageProfile/profile.png"
+              priority
+              quality={100}
+              fill
+              alt=""
+              className="object-cover transform scale-110"
+            />
+          </div>
         </motion.div>
         {/* circle */}
         <motion.svg

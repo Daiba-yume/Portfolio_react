@@ -24,7 +24,7 @@ export default {
       colors: {
         primary: "#1c1c22",
         lavender: "#b185db",
-        curve: "#220135",
+        curve: "#02040f",
         stack: "#aa7bc3",
         accent: {
           DEFAULT: "#CEBEFF",
