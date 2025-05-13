@@ -44,7 +44,7 @@ const about = {
 /* Experience data */
 const experience = {
   title: "My experience",
-  desc: "Mon chemin d’apprentissage en continu :",
+  desc: "Mes différents chemins d'apprentissage en continu :",
   items: [
     {
       company: "OpenClassrooms",
@@ -181,7 +181,7 @@ const Resume = () => {
             <TabsContent value="experience" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className="text-4xl font-bold">{experience.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx_0">
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
                   {experience.desc}
                 </p>
                 <ScrollArea className="h-[400px]">
@@ -213,7 +213,7 @@ const Resume = () => {
             <TabsContent value="education" className="w-full rounded-xl">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className="text-4xl font-bold">{education.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx_0">
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
                   {education.desc}
                 </p>
                 <ScrollArea className="h-[400px]">

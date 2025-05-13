@@ -10,6 +10,7 @@ import {
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { CiMenuFries } from "react-icons/ci";
+import { useEffect, useState } from "react";
 
 const links = [
   {
@@ -36,8 +37,13 @@ const links = [
 
 const MobileNav = () => {
   const pathname = usePathname();
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname]);
   return (
-    <Sheet>
+    <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger className="flex justify-center items-center">
         <CiMenuFries className="text-[32px] text-accent" />
       </SheetTrigger>
@@ -51,7 +57,7 @@ const MobileNav = () => {
         </SheetDescription>
 
         {/* logo */}
-        <div className="mt-32 mb-40 text-center text-2xl">
+        <div className="mt-32 mb-32 text-center text-2xl">
           <Link href="/" aria-label="direction acceuil">
             <h1 className="text-4xl font-semibold">
               Daïba <span className="text-accent">.</span>
