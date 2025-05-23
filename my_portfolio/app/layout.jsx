@@ -2,8 +2,10 @@ import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 //components
 import Header from "@/components/Header";
-import PageTransition from "@/components/PageTransition";
-import CurveTransition from "@/components/CurveTransition";
+import Home from "./page";
+import Resume from "./resume/resume";
+import Work from "./work/work";
+import Contact from "./contact/contact";
 
 const jetbrainsMono = JetBrains_Mono({
   variable: "--font-jetbrainsMono",
@@ -19,13 +21,12 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout() {
   return (
     <html lang="en">
       <body className={jetbrainsMono.variable}>
         <Header />
-        <CurveTransition />
-        <PageTransition>{children}</PageTransition>
+        <Home />
       </body>
     </html>
   );

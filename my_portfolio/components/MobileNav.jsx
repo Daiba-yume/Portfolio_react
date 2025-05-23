@@ -8,30 +8,29 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { usePathname } from "next/navigation";
-import Link from "next/link";
 import { CiMenuFries } from "react-icons/ci";
 import { useEffect, useState } from "react";
 
 const links = [
   {
     name: "home",
-    path: "/",
+    path: "#home",
   },
   /*  {
     name: "services",
-    path: "/services",
+    path: "#services",
   }, */
   {
     name: "resume",
-    path: "/resume",
+    path: "#resume",
   },
   {
     name: "work",
-    path: "/work",
+    path: "#work",
   },
   {
     name: "contact",
-    path: "/contact",
+    path: "#contact",
   },
 ];
 
@@ -58,11 +57,11 @@ const MobileNav = () => {
 
         {/* logo */}
         <div className="mt-32 mb-32 text-center text-2xl">
-          <Link href="/" aria-label="direction acceuil">
+          <a href="/" aria-label="direction acceuil">
             <h1 className="text-4xl font-semibold">
               Daïba <span className="text-accent">.</span>
             </h1>
-          </Link>
+          </a>
         </div>
 
         {/* Titre invisible pour l'accessibilité */}
@@ -71,7 +70,7 @@ const MobileNav = () => {
         <nav className="flex flex-col justify-center items-center gap-8">
           {links.map((link, index) => {
             return (
-              <Link
+              <a
                 href={link.path}
                 key={index}
                 className={`${
@@ -81,7 +80,7 @@ const MobileNav = () => {
                 aria-label="lien de navigation"
               >
                 {link.name}
-              </Link>
+              </a>
             );
           })}
         </nav>

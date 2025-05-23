@@ -14,12 +14,12 @@ const Header = () => {
           </h1>
         </Link>
         {/* desktop nav & hire me button*/}
-        <div className="hidden xl:flex items-center gap-8">
+        {/*   <div className="hidden xl:flex items-center gap-8">
           <Nav />
           <Link href="/contact" aria-label="direction contact">
             <Button aria-label="embauchez moi">Hire me</Button>
           </Link>
-        </div>
+        </div> */}
         {/* mobile nav */}
         <div className="xl:hidden">
           <MobileNav />

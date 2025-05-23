@@ -16,11 +16,7 @@ const about = {
   title: "About me",
   desc:
     "Après quelques années à chercher ma voie, j'ai enfin découvert une véritable passion : le développement web.\n" +
-    "Aujourd'hui, je me forme activement aux technologies clés comme JavaScript, React et l'utilisation des API, avec l'ambition de créer des sites modernes, accessibles et efficaces.\n\n" +
-    "Débutante motivée, je m'applique à écrire un code propre et compréhensible, en posant des bases solides pour évoluer sereinement dans ce domaine.\n\n" +
-    "À court terme, je souhaite consolider mes compétences techniques et développer des projets concrets.\n" +
-    "À long terme, mon objectif est d'intégrer une équipe dynamique, continuer à apprendre aux côtés de développeurs expérimentés, et contribuer à des projets qui ont du sens.\n\n" +
-    "Je suis curieuse, persévérante, et toujours à l'écoute des conseils pour progresser chaque jour un peu plus.",
+    "Aujourd'hui, je me forme activement aux technologies clés comme JavaScript, React et l'utilisation des API, avec l'ambition de créer des sites modernes, accessibles et efficaces.\n\n",
   info: [
     {
       filedName: "Name",
