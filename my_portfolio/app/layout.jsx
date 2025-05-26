@@ -3,9 +3,7 @@ import "./globals.css";
 //components
 import Header from "@/components/Header";
 import Home from "./page";
-import Resume from "./resume/resume";
-import Work from "./work/work";
-import Contact from "./contact/contact";
+import BackToTop from "@/components/BackToTop";
 
 const jetbrainsMono = JetBrains_Mono({
   variable: "--font-jetbrainsMono",
@@ -27,6 +25,7 @@ export default function RootLayout() {
       <body className={jetbrainsMono.variable}>
         <Header />
         <Home />
+        <BackToTop />
       </body>
     </html>
   );

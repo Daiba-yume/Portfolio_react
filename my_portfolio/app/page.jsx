@@ -11,7 +11,7 @@ import Contact from "./contact/contact";
 const Home = () => {
   return (
     <>
-      <section id="home" className="h-full">
+      <section id="home" className="h-full pt-32">
         <div className="container mx-auto h-full">
           <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
             {/* text */}
@@ -65,10 +65,10 @@ const Home = () => {
         </div>
         <Stats />
       </section>
-      <section id="resume">
+      <section id="resume" className="scroll-mt-32">
         <Resume />
       </section>
-      <section id="work">
+      <section id="work" className="scroll-mt-32">
         <Work />
       </section>
       <section id="contact">
