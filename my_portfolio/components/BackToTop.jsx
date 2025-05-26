@@ -25,7 +25,7 @@ function BackToTop() {
       <button
         onClick={scrollToTop}
         aria-label="retour en haut de page"
-        className="fixed bottom-6 right-6 p-4 rounded-full bg-accent text-white shadow-lg hover:brightness-75 transition-all"
+        className="fixed bottom-6 right-6 p-3 rounded-full border-4 border-white bg-accent text-white shadow-lg hover:brightness-75 transition-all"
       >
         <FaArrowUp className="text-xl" />
       </button>
