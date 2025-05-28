@@ -18,17 +18,17 @@ const about = {
     "Après quelques années à chercher ma voie, j'ai enfin découvert une véritable passion : le développement web.\n" +
     "Aujourd'hui, je me forme activement aux technologies clés comme JavaScript, React et l'utilisation des API, avec l'ambition de créer des sites modernes, accessibles et efficaces.\n\n",
   info: [
-    {
+    /*  {
       filedName: "Name",
       filedValue: "Daïba Benamara",
     },
     {
-      filedName: "Mobile",
-      filedValue: "(+31) 7-81-91-75-88",
-    },
-    {
       filedName: "Email",
       filedValue: "daiba.bnm@gmail.com",
+    }, */
+    {
+      filedName: "Localisation",
+      filedValue: "Paris",
     },
     {
       filedName: "Langues",
