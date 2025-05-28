@@ -71,7 +71,7 @@ const Home = () => {
       <section id="work" className="scroll-mt-32">
         <Work />
       </section>
-      <section id="contact">
+      <section id="contact" className="scroll-mt-32">
         <Contact />
       </section>
     </>
