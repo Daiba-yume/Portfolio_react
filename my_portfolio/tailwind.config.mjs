@@ -19,6 +19,7 @@ export default {
     },
     fontFamily: {
       primary: "var(--font-jetbrainsMono)",
+      playfair: "var(--font-playfair)",
     },
     extend: {
       colors: {
