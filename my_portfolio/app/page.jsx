@@ -16,7 +16,7 @@ const Home = () => {
           <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
             {/* text */}
             <div className="text-center xl:text-left order-2 xl:order-none">
-              <span className="text-xl ">Développeuse Web React/JS</span>
+              <span className="text-xl ">Développeuse Web React/JS junior</span>
               <h1 className="h1  mb-6 pt-8">
                 Hello,
                 <br />
@@ -71,7 +71,7 @@ const Home = () => {
       <section id="work" className="scroll-mt-32">
         <Work />
       </section>
-      <section id="contact">
+      <section id="contact" className="scroll-mt-32">
         <Contact />
       </section>
     </>
