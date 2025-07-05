@@ -155,6 +155,21 @@ const projects = [
     live: "https://sportsee-nine.vercel.app/",
     github: "https://github.com/Daiba-yume/Project_12_SS",
   },
+  {
+    num: "12",
+    category: "HRnet",
+    title: "p12",
+    desc: "Douzième projet : J'ai dû convertir l'application HRnet (initialement en jQuery) en React. J'ai choisi deux plugins à convertir en composants React, réalisé des tests de performance avec Lighthouse et publié les composants avec une documentation claire. Vous trouverez plus d'informations sur mon GitHub.",
+    stack: [
+      { name: "React" },
+      { name: "JavaScript" },
+      { name: "Redux" },
+      { name: "NPM" },
+    ],
+    image: "/assets/work/p12.png",
+    live: "https://project-14-wh.vercel.app/",
+    github: "https://github.com/Daiba-yume/Project_14_WH",
+  },
 ];
 
 const Work = () => {

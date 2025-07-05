@@ -18,11 +18,11 @@ import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import { PiHandshakeFill } from "react-icons/pi";
 
 const info = [
-  {
+  /* {
     icon: <FaPhoneAlt />,
     title: "Mobile",
     desc: "07-81-91-75-88",
-  },
+  }, */
   {
     icon: <FaEnvelope />,
     title: "Email",
