@@ -10,7 +10,9 @@ import {
   FaVuejs,
   FaGitAlt,
   FaGithub,
+  FaNpm,
 } from "react-icons/fa";
+import { SiRedux } from "react-icons/si";
 
 const about = {
   title: "About me",
@@ -93,48 +95,58 @@ const Skills = {
   skillList: [
     {
       icon: <FaHtml5 />,
-      name: "html 5",
+      name: "Html 5",
       color: "#e34c26",
     },
     {
       icon: <FaCss3 />,
-      name: "css 3",
+      name: "Css 3",
       color: "#264de4",
     },
     {
       icon: <FaJs />,
-      name: "javaScript",
+      name: "JavaScript",
       color: "#f0db4f",
     },
     {
       icon: <FaReact />,
-      name: "react.js",
+      name: "React.js",
       color: "#61dafb",
     },
     {
       icon: <FaSass />,
-      name: "sass",
+      name: "Sass",
       color: "#cd6799",
     },
     {
       icon: <FaVuejs />,
-      name: "vue.js",
+      name: "Vue.js",
       color: "#42b883",
     },
     {
       icon: <FaGitAlt />,
-      name: "git",
+      name: "Git",
       color: "#f1502f",
     },
     {
       icon: <FaGithub />,
-      name: "github",
+      name: "Github",
       color: "#fff",
     },
     {
       icon: <FaFigma />,
-      name: "figma",
+      name: "Figma",
       color: "#a259ff",
+    },
+    {
+      icon: <SiRedux />,
+      name: "Redux",
+      color: "#764ABC",
+    },
+    {
+      icon: <FaNpm />,
+      name: "Npm",
+      color: "#CB3837",
     },
   ],
 };
