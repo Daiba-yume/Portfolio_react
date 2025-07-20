@@ -20,9 +20,9 @@ const Home = () => {
               <h1 className="h1  mb-6 pt-8">
                 Hello,
                 <br />
-                je suis
+                je suis{" "}
                 <span className="text-accent">
-                  <strong> Daïba Benamara</strong>
+                  Daïba <strong>Benamara</strong>
                 </span>
               </h1>
               <p className="max-w-[900px] mb-9 text-white/80">
