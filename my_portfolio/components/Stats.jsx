@@ -17,6 +17,7 @@ const stats = [
   },
   {
     num: 200,
+    prefix: "+",
     text: "Code commits",
   },
 ];
@@ -35,6 +36,7 @@ function Stats() {
                   end={Item.num}
                   duration={5}
                   delay={2}
+                  prefix={Item.prefix || ""}
                   className="text-4xl xl:text-6xl font-extrabold "
                 />
                 <p

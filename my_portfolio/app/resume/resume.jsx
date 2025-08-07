@@ -47,7 +47,7 @@ const experience = {
     {
       company: "OpenClassrooms",
       position: "Développeur d'application JavaScript React",
-      duration: "2024 - En cours",
+      duration: "2024 - 2025",
     },
     {
       company: "OpenClassrooms",
@@ -56,7 +56,7 @@ const experience = {
     },
     {
       company: "Doranco",
-      position: "Développeur web et web mobile",
+      position: "Formation développeur web et web mobile",
       duration: "2021-2022",
     },
     {
@@ -76,6 +76,11 @@ const education = {
   title: "Diplômes",
   desc: "Parcours scolaire :",
   items: [
+    {
+      institution: "OpenClassrooms",
+      degree: "Diplôme RNCP de niveau 6 (Développeur concepteur logiciel)",
+      duration: "2024-2025",
+    },
     {
       institution: "OpenClassrooms",
       degree: "Diplôme RNCP de niveau 5 (Développeur intégrateur web)",
