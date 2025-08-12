@@ -57,7 +57,7 @@ const projects = [
     desc: "Quatrième projet : Créer un prototype pour FishEye, un site pour photographes. Intégration des maquettes en HTML, CSS et JavaScript. Affichage dynamique des médias depuis un fichier JSON avec le pattern Factory. Le site doit être accessible, sans erreur, et navigable au clavier.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }],
     image: "/assets/work/p4.png",
-    live: "https://daiba-yume.github.io/Project_6/index.html",
+    live: "https://fisheye-three.vercel.app/",
     github: "https://github.com/Daiba-yume/Project_6",
   },
   {
